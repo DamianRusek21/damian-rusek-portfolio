@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/damian-rusek-portfolio/static/css/main.d4786558.css",
+    "main.js": "/damian-rusek-portfolio/static/js/main.15971eea.js",
+    "static/js/453.ececc0a5.chunk.js": "/damian-rusek-portfolio/static/js/453.ececc0a5.chunk.js",
+    "index.html": "/damian-rusek-portfolio/index.html",
+    "main.d4786558.css.map": "/damian-rusek-portfolio/static/css/main.d4786558.css.map",
+    "main.15971eea.js.map": "/damian-rusek-portfolio/static/js/main.15971eea.js.map",
+    "453.ececc0a5.chunk.js.map": "/damian-rusek-portfolio/static/js/453.ececc0a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d4786558.css",
+    "static/js/main.15971eea.js"
+  ]
+}
