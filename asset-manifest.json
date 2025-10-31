@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/damian-rusek-portfolio/static/css/main.d4786558.css",
-    "main.js": "/damian-rusek-portfolio/static/js/main.439a1434.js",
+    "main.css": "/damian-rusek-portfolio/static/css/main.cc5f1c0a.css",
+    "main.js": "/damian-rusek-portfolio/static/js/main.7aa07315.js",
     "static/js/453.ececc0a5.chunk.js": "/damian-rusek-portfolio/static/js/453.ececc0a5.chunk.js",
     "index.html": "/damian-rusek-portfolio/index.html",
-    "main.d4786558.css.map": "/damian-rusek-portfolio/static/css/main.d4786558.css.map",
-    "main.439a1434.js.map": "/damian-rusek-portfolio/static/js/main.439a1434.js.map",
+    "main.cc5f1c0a.css.map": "/damian-rusek-portfolio/static/css/main.cc5f1c0a.css.map",
+    "main.7aa07315.js.map": "/damian-rusek-portfolio/static/js/main.7aa07315.js.map",
     "453.ececc0a5.chunk.js.map": "/damian-rusek-portfolio/static/js/453.ececc0a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d4786558.css",
-    "static/js/main.439a1434.js"
+    "static/css/main.cc5f1c0a.css",
+    "static/js/main.7aa07315.js"
   ]
 }
