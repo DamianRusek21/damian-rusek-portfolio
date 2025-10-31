@@ -6,7 +6,7 @@ export default function Hero() {
     >
       {/* Profile Photo */}
       <img
-        src="/profile.jpg"           // <-- Your photo in public folder
+        src={process.env.PUBLIC_URL + '/profile.jpg'}  // Use PUBLIC_URL for GitHub Pages
         alt="Damian Rusek"
         className="w-32 h-32 mx-auto rounded-full border-4 border-white mb-6 shadow-lg"
       />
@@ -14,8 +14,10 @@ export default function Hero() {
       {/* Name */}
       <h1 className="text-5xl font-bold">Hi, I'm Damian Rusek</h1>
 
-      {/* Title */}
-      <p className="mt-4 text-xl">Aspiring Data Scientist | Portfolio Showcase</p>
+      {/* Tagline */}
+      <p className="mt-4 text-xl">
+        Aspiring Data Scientist | Portfolio Showcase
+      </p>
     </section>
   );
 }
