@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/damian-rusek-portfolio/static/css/main.cc5f1c0a.css",
-    "main.js": "/damian-rusek-portfolio/static/js/main.7aa07315.js",
+    "main.css": "/damian-rusek-portfolio/static/css/main.860e8d6e.css",
+    "main.js": "/damian-rusek-portfolio/static/js/main.530dc307.js",
     "static/js/453.ececc0a5.chunk.js": "/damian-rusek-portfolio/static/js/453.ececc0a5.chunk.js",
     "index.html": "/damian-rusek-portfolio/index.html",
-    "main.cc5f1c0a.css.map": "/damian-rusek-portfolio/static/css/main.cc5f1c0a.css.map",
-    "main.7aa07315.js.map": "/damian-rusek-portfolio/static/js/main.7aa07315.js.map",
+    "main.860e8d6e.css.map": "/damian-rusek-portfolio/static/css/main.860e8d6e.css.map",
+    "main.530dc307.js.map": "/damian-rusek-portfolio/static/js/main.530dc307.js.map",
     "453.ececc0a5.chunk.js.map": "/damian-rusek-portfolio/static/js/453.ececc0a5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc5f1c0a.css",
-    "static/js/main.7aa07315.js"
+    "static/css/main.860e8d6e.css",
+    "static/js/main.530dc307.js"
   ]
 }
