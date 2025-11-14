@@ -1,24 +1,25 @@
 export default function Experience() {
   const experiences = [
     {
-      role: "DevOps Engineer",
-      company: "Webbertech Technologies LLC",
-      duration: "May 2025 - Present",
-      description: [
-        "Configured and monitored NGINX load balancing to collect and interpret performance metrics, improving server efficiency and reliability.",
-        "Used Kubernetes (kubectl) to manage and analyze routing configurations and ConfigMaps, ensuring consistent data flow and stable cluster operations.",
-        "Managed Nexus artifacts to maintain structured version control and reproducibility across deployment environments.",
-      ],
-    },
-    {
-      role: "Programming Analyst",
+      role: "Programming Analyst / DevOps Engineer",
       company: "Webbertech Technologies LLC",
       duration: "March 2025 - Present",
       description: [
-        "Applied deep understanding of computer systems, IT fundamentals, and data structures to analyze network data and troubleshoot technical issues.",
-        "Leveraged knowledge of operating systems, networking, and system architecture to optimize code and maintain secure environments.",
-        "Utilized forensics, SSL/VPN protocols, and structured data analysis to identify anomalies and strengthen system security.",
-        "Monitored code changes, reviewed contributions, and documented workflow using GitHub to ensure effective cross-team collaboration.",
+        "Evaluated coursework from 100+ students across multiple programming courses, ensuring correctness and algorithmic soundness.",
+        "Automated grading and workflow scripts to optimize efficiency across student submissions.",
+        "Deployed and managed CI/CD pipelines using Docker, Jenkins, and NGINX.",
+        "Configured and monitored Kubernetes clusters and Nexus artifacts to maintain reproducible environments.",
+        "Documented technical processes in GitHub to improve collaboration and knowledge sharing.",
+      ],
+    },
+    {
+      role: "Software Development Group Member",
+      company: "Multi-University Collaboration | Remote",
+      duration: "October 2025 - Present",
+      description: [
+        "Collaborated on a data-driven software product using Agile project management.",
+        "Contributed to data organization, testing, and reporting to improve design and usability.",
+        "Enhanced team workflow and project tracking through structured documentation and version control.",
       ],
     },
     {
@@ -26,9 +27,9 @@ export default function Experience() {
       company: "Amazon",
       duration: "December 2024 - Present",
       description: [
-        "Ensured data accuracy and quality control by verifying item counts, conditions, and labels.",
-        "Maintained a rate of 230+ packages/hour by optimizing packing processes and monitoring performance metrics.",
-        "Reported inventory discrepancies and resolved equipment issues to support workflow efficiency.",
+        "Maintained 230+ packages/hour while optimizing packing workflows.",
+        "Investigated inventory discrepancies and assisted in troubleshooting technical issues.",
+        "Ensured accuracy and efficiency in high-volume operations through data-driven monitoring.",
       ],
     },
     {

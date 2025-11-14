@@ -6,14 +6,44 @@ export default function Skills() {
       "Tableau",
       "Spreadsheets",
       "Data Visualization",
+      "pandas",
+      "TensorFlow"
     ],
     analyticsSkills: [
-      "Data Analysis",
+      "Data Cleaning & Preprocessing",
+      "Feature Engineering",
+      "ETL (Extract, Transform, Load)",
+      "Predictive Modeling & Machine Learning",
       "Statistical Reasoning",
       "Data Interpretation",
       "Data Collection & Reporting",
       "Data-driven Decision Making",
       "Reporting and Tracking"
+    ],
+    devOpsSkills: [
+      "Git/GitHub",
+      "Kubernetes",
+      "NGINX",
+      "Jenkins",
+      "Docker",
+      "Continuous Integration (CI)",
+      "Continuous Delivery (CD)",
+      "Infrastructure Automation",
+      "Technical Writing / Documentation",
+      "Self-Directed Learning"
+    ],
+    softSkills: [
+      "Critical Thinking",
+      "Collaborative Problem Solving",
+      "Accountability",
+      "Ethics",
+      "Bias Awareness",
+      "Client Confidentiality",
+      "Attention to Detail",
+      "Problem-Solving & Troubleshooting",
+      "Process Optimization & Efficiency",
+      "Data-driven Decision Making",
+      "Communication of Insights"
     ],
     certifications: [
       {
@@ -25,7 +55,7 @@ export default function Skills() {
       {
         name: "Google Advanced Data Analytics Professional Certificate",
         date: "In Progress",
-        link: "https://www.coursera.org/professional-certificates/advanced-data-analytics" // placeholder
+        link: "https://www.coursera.org/professional-certificates/advanced-data-analytics"
       },
       {
         name: "CITI Program: Social-Behavioral-Educational (SBE) Comprehensive",
@@ -48,17 +78,36 @@ export default function Skills() {
       {/* Professional Summary */}
       <div className="max-w-5xl mx-auto mb-12">
         <p className="text-lg text-black-700" style={{ textIndent: "2rem", lineHeight: "2" }}>
-          I’m Damian, a Data Scientist-in-training at Kean University. I work with Python, R, SQL, Java, Tableau, Excel, and DevOps tools like GitHub, Kubernetes, and NGINX.
-
-          Currently, I’m a Programming Analyst and DevOps Intern at Webbertech Technologies, handling data, network security, and deployments. I’m also pursuing the Google Advanced Data Analytics Professional Certificate to level up my analytics skills.
-
-          I’m looking for internships or entry-level roles in Data Science or Data Analytics where I can tackle challenging problems and make an impact.
+          I’m Damian, a Data Scientist-in-training at Kean University. I work with Python, R, SQL, Java, Tableau, Excel, and DevOps tools like GitHub, Kubernetes, and NGINX. Currently, I’m a Programming Analyst and DevOps Intern at Webbertech Technologies, handling data, network security, and deployments. I’m also pursuing the Google Advanced Data Analytics Professional Certificate to level up my analytics skills. I’m looking for internships or entry-level roles in Data Science or Data Analytics where I can tackle challenging problems and make an impact.
         </p>
       </div>
 
       <h2 className="text-4xl font-bold text-center mb-12">Skills & Certifications</h2>
 
       <div className="max-w-5xl mx-auto grid md:grid-cols-2 gap-10">
+        {/* Certifications */}
+        <div>
+          <h3 className="text-2xl font-semibold mb-4">Certifications</h3>
+          <ul className="list-disc list-inside space-y-2">
+            {skills.certifications.map((cert, idx) => (
+              <li key={idx}>
+                <span className="font-bold">
+                  {cert.link ? (
+                    <a href={cert.link} target="_blank" rel="noopener noreferrer" className="hover:underline text-black">
+                      {cert.name}
+                    </a>
+                  ) : (
+                    cert.name
+                  )}
+                </span>
+                {cert.id && <span> | {cert.id}</span>}
+                <span> | {cert.date}</span>
+                {cert.expiry && <span> | {cert.expiry}</span>}
+              </li>
+            ))}
+          </ul>
+        </div>
+
         {/* Programming Languages */}
         <div>
           <h3 className="text-2xl font-semibold mb-4">Programming Languages</h3>
@@ -89,36 +138,34 @@ export default function Skills() {
           </ul>
         </div>
 
-        {/* Certifications & Languages */}
+        {/* DevOps & Technical Skills */}
         <div>
-          <h3 className="text-2xl font-semibold mb-4">Certifications & Languages</h3>
-          <ul className="list-disc list-inside space-y-2">
-            {skills.certifications.map((cert, idx) => (
-              <li key={idx}>
-                <span className="font-bold">
-                  {cert.link ? (
-                    <a href={cert.link} target="_blank" rel="noopener noreferrer" className="hover:underline text-black">
-                      {cert.name}
-                    </a>
-                  ) : (
-                    cert.name
-                  )}
-                </span>
-                {cert.id && <span> | {cert.id}</span>}
-                <span> | {cert.date}</span>
-                {cert.expiry && <span> | {cert.expiry}</span>}
-              </li>
+          <h3 className="text-2xl font-semibold mb-4">DevOps & Technical Skills</h3>
+          <ul className="list-disc list-inside space-y-1">
+            {skills.devOpsSkills.map((skill, idx) => (
+              <li key={idx}>{skill}</li>
             ))}
           </ul>
+        </div>
 
-          <div className="mt-4">
-            <h4 className="text-xl font-semibold mb-2">Languages</h4>
-            <ul className="list-disc list-inside space-y-1">
-              {skills.languages.map((lang, idx) => (
-                <li key={idx}>{lang}</li>
-              ))}
-            </ul>
-          </div>
+        {/* Soft Skills */}
+        <div>
+          <h3 className="text-2xl font-semibold mb-4">Professional & Soft Skills</h3>
+          <ul className="list-disc list-inside space-y-1">
+            {skills.softSkills.map((skill, idx) => (
+              <li key={idx}>{skill}</li>
+            ))}
+          </ul>
+        </div>
+
+        {/* Languages */}
+        <div>
+          <h3 className="text-2xl font-semibold mb-4">Languages</h3>
+          <ul className="list-disc list-inside space-y-1">
+            {skills.languages.map((lang, idx) => (
+              <li key={idx}>{lang}</li>
+            ))}
+          </ul>
         </div>
       </div>
     </section>
